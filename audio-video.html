@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Audio Video</title>
+  </head>
+  <body>
+    <h2>Embedding Audio</h2>
+    <audio controls>
+      <source src="audio.mp3" type="audio/mpeg" />
+      <source src="audio.ogg" type="audio/ogg" />
+      Your browser does not support the audio element.
+    </audio>
+
+    <h2>Audio Tips</h2>
+    <p>✔ Include multiple sources for browser compatibility.</p>
+    <p>✔ Always provide fallback text for unsupported browsers.</p>
+
+    <h2>Embedding Video</h2>
+    <video width="320" height="240" controls>
+      <source src="video.mp4" type="video/mp4" />
+      <source src="video.ogg" type="video/ogg" />
+      Your browser does not support the video tag.
+    </video>
+
+    <h2>Video Tips</h2>
+    <p>✔ Always provide controls for user interaction.</p>
+    <p>✔ Include multiple formats to support different browsers.</p>
+    <p>
+      ✔ Provide fallback text for browsers that don’t support &lt;video&gt; or
+      &lt;audio&gt;.
+    </p>
+  </body>
+</html>
